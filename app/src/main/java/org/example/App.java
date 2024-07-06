@@ -53,17 +53,15 @@ public class App {
   }
 
   public static void main(String[] args) {
-
     App Calc1 = new App();
     App Calc2 = new App();
     App Calc3 = new App();
     App Calc4 = new App();
 
     System.out.println(new App().getGreeting());
-    System.out.printf("Sum of 2 and 3 is %d. Average is %.1f\n", Calc1.Calc_sum(2, 3), Calc2.Calc_ave(2, 3));
-    System.out.printf("Sum of 1 to 10 is %d. Average is %.1f\n", Calc1.Calc_sum(1, 10), Calc2.Calc_ave(1, 10));
+    System.out.printf("Sum of 2 and 3 is %d. Average is %.1f.\n", Calc1.Calc_sum(2, 3), Calc2.Calc_ave(2, 3));
+    System.out.printf("Sum of 1 to 10 is %d. Average is %.1f.\n", Calc1.Calc_sum(1, 10), Calc2.Calc_ave(1, 10));
     System.out.printf("Sum of odd of 1 to 10 is %d. Sum of even is %d.\n", Calc3.Calc_sum_odd(1, 10),
         Calc4.Calc_sum_even(1, 10));
-
   }
 }
