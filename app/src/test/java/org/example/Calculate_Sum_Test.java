@@ -8,7 +8,7 @@ public class Calculate_Sum_Test {
   @Test
   public void testCalculate_Sum() {
     Calculate_Sum calculate_sum = new Calculate_Sum();
-    int expected = 50;
+    int expected = 55;
     assertEquals(expected, calculate_sum.Calc_sum(1, 10));
   }
 }
